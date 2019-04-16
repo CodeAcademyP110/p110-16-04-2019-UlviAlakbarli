@@ -1,0 +1,87 @@
+body p {
+  margin: 0px;
+}
+body .contextMenu {
+  padding: 10px 0px;
+  position: absolute;
+  z-index: 3;
+  cursor: pointer;
+  overflow: hidden;
+  text-indent: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.61);
+}
+body .contextMenu p {
+  width: 250px;
+  margin: 0px;
+}
+body .contextMenu:hover p {
+  background-color: rgba(0, 0, 0, 0.21);
+}
+body .overlay {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.21);
+}
+body .overlay .untitledFolder {
+  padding: 20px;
+  width: 370px;
+  background-color: white;
+}
+body .overlay .untitledFolder .fa-window-close {
+  cursor: pointer;
+}
+body .overlay .untitledFolder span {
+  line-height: 30px;
+  margin: 5px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+body .overlay .untitledFolder .cancel:hover {
+  background: lightgrey;
+  -webkit-box-shadow: 0px 0px 3px lightgray;
+          box-shadow: 0px 0px 3px lightgray;
+}
+body .overlay .untitledFolder .create {
+  color: white;
+  background-color: blue;
+}
+body .overlay .untitledFolder .create:hover {
+  -webkit-box-shadow: 0px 0px 3px lightgray;
+          box-shadow: 0px 0px 3px lightgray;
+}
+body .folderArea {
+  width: 100%;
+  min-height: 70vh;
+}
+body .folderArea .folder {
+  margin: 15px;
+  padding: 10px 0px;
+  overflow: hidden;
+  text-indent: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.21);
+  line-height: 30px;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.61);
+}
+body .folderArea .folder p {
+  width: 250px;
+  margin: 0px;
+  display: inline-block;
+}
